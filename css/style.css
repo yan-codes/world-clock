@@ -1,11 +1,72 @@
 body {
-  background-color: antiquewhite;
+  background-image: url("../images/earth.png");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.container {
+  display: block;
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #091460;
+  padding: 60px;
+  opacity: 0.8;
+  color: white;
+  border-radius: 7px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(245, 243, 243);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: #091460;
+}
+
+a {
+  color: rgb(251, 251, 64);
+  text-decoration: none;
 }
 
 h1 {
   text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+  line-height: 2;
+  font-size: 28px;
+}
+
+date {
+  opacity: 0.7;
 }
 
 footer {
   text-align: center;
+  color: bisque;
 }

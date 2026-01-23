@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Dianne Louise</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,30 +15,31 @@
       <select>
         <option value="">Select a city</option>
         <option value="">Rome</option>
-        <option value="">Tokyo</option>
         <option value="">Miami</option>
+        <option value="">Sitka</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="jerusalem">
         <div>
           <h2>Jerusalem</h2>
-          <div class="date">January 22nd 2026</div>
+          <div class="date"></div>
         </div>
-        <div class="time">4:23:00 <small>am</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="tokyo">
         <div>
-          <h2>Sitka</h2>
-          <div class="date">January 22nd 2026</div>
+          <h2>Tokyo</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">4:23:00 <small>am</small></div>
+        <div class="time"></div>
       </div>
     </div>
+
     <footer>
-      This project was coded with 💖 by Dianne Louise and is
+      ✨This project was coded by <strong>Dianne Louise</strong> and is
       <a href="https://github.com/yan-codes/world-clock" target="_blank"
         >open-sourced on Github</a
-      >.
+      >✨
     </footer>
 
     <script src="javascript/index.js"></script>

@@ -7,12 +7,32 @@ body {
 .container {
   display: block;
   max-width: 600px;
-  margin: 60px auto;
-  background-color: #091460;
+  margin: 60px auto 25px;
+  background-color: rgba(9, 20, 96, 0.7);
   padding: 60px;
-  opacity: 0.8;
-  color: white;
+  color: #fafafa;
   border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+  line-height: 2;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: #091460;
 }
 
 .city {
@@ -37,29 +57,8 @@ body {
   vertical-align: middle;
 }
 
-select {
-  display: block;
-  width: 100%;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 18px;
-  color: #091460;
-}
-
 a {
-  color: rgb(251, 251, 64);
-  text-decoration: none;
-}
-
-h1 {
-  text-align: center;
-  font-size: 40px;
-}
-
-h2 {
-  margin: 0;
-  line-height: 2;
-  font-size: 28px;
+  color: rgb(16, 249, 249);
 }
 
 date {
@@ -68,5 +67,7 @@ date {
 
 footer {
   text-align: center;
-  color: bisque;
+  text-shadow: 3px 3px 5px rgb(2, 196, 245);
+  color: #fafafa;
+  font-size: 20px;
 }

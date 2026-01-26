@@ -16,6 +16,14 @@ function updateTime() {
 
   tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do YYYY");
   tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
+
+  let sitkaElement = document.querySelector("#sitka");
+  let sitkaDateElement = sitkaElement.querySelector(".date");
+  let sitkaTimeElement = sitkaElement.querySelector(".time");
+  sitkaTime = moment().tz("America/Sitka");
+
+  sitkaDateElement.innerHTML = sitkaTime.format("MMMM Do YYYY");
+  sitkaTimeElement.innerHTML = sitkaTime.format("h:mm:ss [<small>]A[</small>]");
 }
 
 function updateCity(event) {

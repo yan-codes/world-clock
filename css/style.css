@@ -7,9 +7,9 @@ body {
 .container {
   display: block;
   max-width: 600px;
-  margin: 60px auto 25px;
+  margin: 35px auto 15px;
   background-color: rgba(9, 20, 96, 0.7);
-  padding: 60px;
+  padding: 25px 40px;
   color: #fafafa;
   border-radius: 7px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -40,7 +40,7 @@ select {
   justify-content: space-between;
   margin: 20px 0;
   padding: 20px 0;
-  border-bottom: 1px dashed rgba(245, 243, 243);
+  border-bottom: 1px dashed rgb(100, 100, 100);
 }
 
 .city:last-child {
@@ -67,7 +67,7 @@ date {
 
 footer {
   text-align: center;
-  text-shadow: 3px 3px 5px rgb(2, 196, 245);
+  text-shadow: 3px 3px 5px rgb(162, 47, 249);
   color: #fafafa;
   font-size: 20px;
 }
